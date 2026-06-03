@@ -1,0 +1,2 @@
+Mapped reads: 98.02%
+OK

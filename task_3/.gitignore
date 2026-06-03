@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+conda-meta/
+
+# Kedro local files
+pipeline/.kedro/
+pipeline/.telemetry
+pipeline/session_store/
+pipeline/logs/
+pipeline/data/
+pipeline/__pycache__/
+
+# Input sequencing data
+data/fastq/
+data/sra/
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.sra
+
+# Reference genome and indexes
+data/reference/
+*.fna
+*.fa
+*.fasta
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+*.fai
+
+# Large alignment files
+results/alignment/
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

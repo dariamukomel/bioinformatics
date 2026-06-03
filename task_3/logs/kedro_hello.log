@@ -1,0 +1,25 @@
+[06/04/26 00:47:06] INFO     Using                                                                                                    __init__.py:281
+                             '/home/daria/miniconda/envs/bio_hw3/lib/python3.14/site-packages/kedro/framework/project/rich_logging.ym                
+                             l' as logging configuration.                                                                                            
+[06/04/26 00:47:07] INFO     Kedro project pipeline                                                                                    session.py:327
+                    INFO     No typed parameter requirements found, returning original parameters                          parameter_validator.py:124
+                    INFO     Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or  plugin.py:273
+                             IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK`                    
+                             environment variables, or create a `.telemetry` file in the current working directory with the contents                 
+                             `consent: false`. To hide this message, explicitly grant or deny consent. Read more at                                  
+                             https://docs.kedro.org/en/stable/about/telemetry/                                                                       
+[06/04/26 00:47:09] INFO     Using synchronous mode for loading and saving data. Use the --async flag for potential           sequential_runner.py:59
+                             performance gains.                                                                                                      
+                             https://docs.kedro.org/en/stable/build/run_a_pipeline/#load-and-save-asynchronously                                     
+                    INFO     Running node: say_hello_node: say_hello(None) ->                                                             node.py:531
+Hello from Kedro pipeline!
+                    INFO     Saving data to hello_message (MemoryDataset)...                                                     data_catalog.py:1009
+                    INFO     Completed node: say_hello_node                                                                             runner.py:245
+                    INFO     Completed 1 out of 2 tasks                                                                                 runner.py:246
+                    INFO     Loading data from hello_message (MemoryDataset)...                                                  data_catalog.py:1053
+                    INFO     Running node: save_message_node: save_message() ->                                                           node.py:531
+Received message: Hello from Kedro pipeline!
+                    INFO     Saving data to saved_hello_message (MemoryDataset)...                                               data_catalog.py:1009
+                    INFO     Completed node: save_message_node                                                                          runner.py:245
+                    INFO     Completed 2 out of 2 tasks                                                                                 runner.py:246
+                    INFO     Pipeline execution completed successfully in 0.0 sec.                                                      runner.py:119

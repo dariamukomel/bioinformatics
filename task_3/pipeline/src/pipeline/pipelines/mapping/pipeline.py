@@ -1,0 +1,81 @@
+from kedro.pipeline import Pipeline, node, pipeline
+
+from .nodes import (
+    prepare_directories,
+    run_fastqc,
+    index_reference,
+    run_bwa_mem,
+    convert_sam_to_bam,
+    run_flagstat,
+    parse_mapping_quality,
+    sort_bam,
+    index_sorted_bam,
+    run_freebayes,
+)
+
+
+def create_pipeline(**kwargs) -> Pipeline:
+    return pipeline(
+        [
+            node(
+                func=prepare_directories,
+                inputs=None,
+                outputs="directories_status",
+                name="prepare_directories_node",
+            ),
+            node(
+                func=run_fastqc,
+                inputs="directories_status",
+                outputs="fastqc_status",
+                name="run_fastqc_node",
+            ),
+            node(
+                func=index_reference,
+                inputs="fastqc_status",
+                outputs="reference_index_status",
+                name="index_reference_node",
+            ),
+            node(
+                func=run_bwa_mem,
+                inputs="reference_index_status",
+                outputs="sam_file",
+                name="run_bwa_mem_node",
+            ),
+            node(
+                func=convert_sam_to_bam,
+                inputs="sam_file",
+                outputs="bam_file",
+                name="convert_sam_to_bam_node",
+            ),
+            node(
+                func=run_flagstat,
+                inputs="bam_file",
+                outputs="flagstat_file",
+                name="run_flagstat_node",
+            ),
+            node(
+                func=parse_mapping_quality,
+                inputs="flagstat_file",
+                outputs="mapping_quality_status",
+                name="parse_mapping_quality_node",
+            ),
+            node(
+                func=sort_bam,
+                inputs="mapping_quality_status",
+                outputs="sorted_bam_file",
+                name="sort_bam_node",
+            ),
+            node(
+                func=index_sorted_bam,
+                inputs="sorted_bam_file",
+                outputs="bam_index_file",
+                name="index_sorted_bam_node",
+            ),
+            node(
+                func=run_freebayes,
+                inputs="bam_index_file",
+                outputs="vcf_file",
+                name="run_freebayes_node",
+            ),
+        ]
+    )
