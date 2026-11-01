@@ -1,0 +1,51 @@
+variant	chrom	pos	ref	alt	rsid	clinvar_present	clinvar_variation_id	clinical_significance	conflicting_interpretations	review_status	conditions	rcv_records
+rs114942253	21	32685836	C	T	rs114942253	yes	478324	Likely_benign		criteria_provided,_multiple_submitters,_no_conflicts	SYNJ1-related_disorder; Early-onset_Parkinson_disease_20; Developmental_and_epileptic_encephalopathy,_53; Inborn_genetic_diseases; not_provided	RCV000535919~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Likely_benign~MedGen:C3661900:not_provided&RCV001086242~Germline~criteria_provided,_single_submitter~Likely_benign~MedGen:C4479313:Developmental_and_epileptic_encephalopathy,_53; MedGen:C3809824:Early-onset_Parkinson_disease_20&RCV003952905~Germline~no_assertion_criteria_provided~Likely_benign~SYNJ1-related_disorder&RCV004024435~Germline~criteria_provided,_single_submitter~Likely_benign~MedGen:C0950123:Inborn_genetic_diseases
+rs4986958	21	33414987	C	G	rs4986958	yes	36376	Benign		criteria_provided,_multiple_submitters,_no_conflicts	Immunodeficiency_28; not_provided; Interferon_gamma_receptor_deficiency	RCV000030045~Germline~criteria_provided,_single_submitter~Benign~MedGen:C1112429:Interferon_gamma_receptor_deficiency&RCV000528693~Germline~criteria_provided,_single_submitter~Benign~MedGen:C4013947:Immunodeficiency_28&RCV001610298~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:C3661900:not_provided
+rs115458101	21	33432763	G	A	rs115458101	yes	749643	Likely_benign		criteria_provided,_single_submitter	Immunodeficiency_28	RCV000926543~Germline~criteria_provided,_single_submitter~Likely_benign~MedGen:C4013947:Immunodeficiency_28
+rs16994704	21	37065706	T	C	rs16994704	yes	789860	Benign		criteria_provided,_multiple_submitters,_no_conflicts	not_provided	RCV000972560~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:C3661900:not_provided
+rs115908228	21	38818481	G	A	rs115908228	no						
+rs61737060	21	43094491	C	T	rs61737060	no						
+rs115397760	21	43968034	C	T	rs115397760	no						
+rs79309256	21	43969150	C	G	rs79309256	no						
+rs115875072	21	43969246	G	A	rs115875072	no						
+rs114971216	22	19972976	C	T	rs114971216	yes	709199	Benign		criteria_provided,_multiple_submitters,_no_conflicts	not_provided	RCV000880569~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:C3661900:not_provided
+rs76496156	22	19979039	C	T	rs76496156	yes	712281	Benign		criteria_provided,_multiple_submitters,_no_conflicts	not_provided	RCV000884191~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:C3661900:not_provided
+rs1058399	22	19980020	G	A	rs1058399	yes	1290187	Benign		criteria_provided,_multiple_submitters,_no_conflicts	not_provided	RCV001715046~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:C3661900:not_provided
+rs61736862	22	19980044	G	A	rs61736862	yes	769145	Benign		criteria_provided,_multiple_submitters,_no_conflicts	not_provided	RCV000948112~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:C3661900:not_provided
+rs116398106	22	19981410	G	A	rs116398106	no						
+rs33992092	22	19981972	G	T	rs33992092	yes	777061	Benign		criteria_provided,_multiple_submitters,_no_conflicts	not_provided	RCV000957469~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:C3661900:not_provided
+rs114537607	22	21643905	C	T	rs114537607	no						
+rs115706909	22	21643926	C	T	rs115706909	no						
+rs61739341	22	21643930	G	A	rs61739341	no						
+rs115663049	22	21963972	G	A	rs115663049	yes	4456431					RCV006159083~~~~MedGen:CN377704:Uterine_corpus_endometrial_carcinoma
+rs114880937	22	21974379	G	A	rs114880937	no						
+rs114362926	22	24183562	C	T	rs114362926	no						
+rs116768581	22	24185897	A	G	rs116768581	no						
+rs8141797	22	24186073	A	G	rs8141797	yes	1255298	Benign		criteria_provided,_multiple_submitters,_no_conflicts	not_provided	RCV001653407~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:C3661900:not_provided
+rs114116736	22	24186269	G	A	rs114116736	no						
+rs17885497	22	28742305	T	C	rs17885497	no						
+rs114880151	22	30264324	G	C	rs114880151	no						
+rs2269961	22	30464843	C	T	rs2269961	no						
+rs115812777	22	30468542	C	T	rs115812777	yes	3438982	Uncertain_significance		criteria_provided,_single_submitter	not_specified	RCV004861406~Germline~criteria_provided,_single_submitter~Uncertain_significance~MedGen:CN169374:not_specified
+rs4820853	22	30468623	A	G	rs4820853	no						
+rs115083767	22	30470253	G	A	rs115083767	no						
+rs112976399	22	30555239	C	T	rs112976399	no						
+rs115862749	22	30555417	G	A	rs115862749	no						
+rs112070427	22	30555895	G	A	rs112070427	no						
+rs2267161	22	30557308	C	T	rs2267161	yes	1230435	Benign		criteria_provided,_multiple_submitters,_no_conflicts	not_provided	RCV001614892~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:C3661900:not_provided
+rs3205187	22	31095309	G	C	rs3205187	no						
+rs115686643	22	33316147	G	A	rs115686643	yes	902052	Conflicting_classifications_of_pathogenicity	Uncertain_significance_(2); Likely_benign_(1)	criteria_provided,_conflicting_classifications	Muscular_dystrophy-dystroglycanopathy_(congenital_with_brain_and_eye_anomalies),_type_A6; Muscular_dystrophy-dystroglycanopathy_type_B6	RCV001148300~Germline~criteria_provided,_conflicting_classifications~Conflicting_classifications_of_pathogenicity~MedGen:C1837229:Muscular_dystrophy-dystroglycanopathy_type_B6&RCV001148301~Germline~criteria_provided,_single_submitter~Uncertain_significance~MedGen:C3150414:Muscular_dystrophy-dystroglycanopathy_(congenital_with_brain_and_eye_anomalies),_type_A6
+rs63446460	22	33650610	C	G	rs63446460	yes	158805	Benign		criteria_provided,_multiple_submitters,_no_conflicts	not_specified; Muscular_dystrophy-dystroglycanopathy_type_B6; Muscular_dystrophy-dystroglycanopathy_(congenital_with_brain_and_eye_anomalies),_type_A6; not_provided	RCV000146256~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:CN169374:not_specified&RCV000402642~Germline~criteria_provided,_single_submitter~Benign~MedGen:C3150414:Muscular_dystrophy-dystroglycanopathy_(congenital_with_brain_and_eye_anomalies),_type_A6&RCV000559185~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:C1837229:Muscular_dystrophy-dystroglycanopathy_type_B6&RCV004713376~Germline~criteria_provided,_single_submitter~Benign~MedGen:C3661900:not_provided
+rs114289284	22	38699831	G	A	rs114289284	no						
+rs114180421	22	38699942	A	G	rs114180421	no						
+rs2072800	22	38699982	A	G	rs2072800	no						
+rs35978693	22	39225792	G	T	rs35978693	yes	777710	Benign		criteria_provided,_multiple_submitters,_no_conflicts	not_specified; not_provided	RCV000958221~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign~MedGen:C3661900:not_provided&RCV006444794~Germline~criteria_provided,_single_submitter~Benign~MedGen:CN169374:not_specified
+rs55634318	22	39231625	G	C	rs55634318	yes	1188397	Benign/Likely_benign		criteria_provided,_multiple_submitters,_no_conflicts	PDGFB-related_disorder; not_provided; not_specified	RCV001548175~Germline~criteria_provided,_multiple_submitters,_no_conflicts~Benign/Likely_benign~MedGen:C3661900:not_provided&RCV001579578~Germline~criteria_provided,_single_submitter~Benign~MedGen:CN169374:not_specified&RCV003980682~Germline~no_assertion_criteria_provided~Benign~PDGFB-related_disorder
+rs112945971	22	39744158	G	A	rs112945971	no						
+rs115302874	22	39744238	A	G	rs115302874	no						
+rs115492335	22	39821109	A	G	rs115492335	no						
+rs8139570	22	39887557	A	G	rs8139570	no						
+rs115365592	22	40019319	C	T	rs115365592	no						
+rs12330063	22	40019964	G	T	rs12330063	no						
+rs115818503	22	40021790	C	T	rs115818503	yes	4253897	Uncertain_significance		criteria_provided,_single_submitter	not_specified	RCV005837681~Germline~criteria_provided,_single_submitter~Uncertain_significance~MedGen:CN169374:not_specified
+rs6519902	22	44916364	G	A	rs6519902	no						
